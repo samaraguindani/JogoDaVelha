@@ -1,0 +1,68 @@
+:root{
+    --rosa1: #fcf0f4;
+    --rosa2: #ff8eb6;
+    --rosa3: #cf2c65;
+
+    --font-rock: "Rock 3D", system-ui;
+    --font-noto: "Noto Sans Khojki", sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+.titulo{
+    font-family: var(--font-rock);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 30px;
+    color: #00000085;
+    font-family: var(--font-noto);
+}
+
+.jogador{
+    padding-right: 20px;
+}
+
+.quadrado {
+    color: transparent;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.quadrado:hover,
+.reiniciar:hover{
+    border-color: var(--rosa3);
+    background-color: #fadfe8c5;
+}
+
+.quadrado,
+.reiniciar{
+    background: transparent;
+    border: 3px solid var(--rosa2);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.reiniciar {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
