@@ -132,9 +132,9 @@ function mudarVencedor(quadrado) {
 }
 
 function mudarCorQuadrado(quadrado1, quadrado2, quadrado3) {
-    quadrado1.style.background = '#fadfe8c5';
-    quadrado2.style.background = '#fadfe8c5';
-    quadrado3.style.background = '#fadfe8c5';
+    quadrado1.style.background = '#7dff7a35';
+    quadrado2.style.background = '#7dff7a35';
+    quadrado3.style.background = '#7dff7a35';
 }
 
 function reiniciar() {

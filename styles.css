@@ -1,7 +1,6 @@
 :root{
-    --rosa1: #fcf0f4;
-    --rosa2: #ff8eb6;
-    --rosa3: #cf2c65;
+    --rosa2: #838383;
+    --rosa3: #2b2b2b;
 
     --font-rock: "Rock 3D", system-ui;
     --font-noto: "Noto Sans Khojki", sans-serif;
@@ -45,7 +44,7 @@ body {
 .quadrado:hover,
 .reiniciar:hover{
     border-color: var(--rosa3);
-    background-color: #fadfe8c5;
+    background-color: #00000015;
 }
 
 .quadrado,
